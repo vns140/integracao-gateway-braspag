@@ -46,7 +46,6 @@ namespace Recorrente
             request.AddHeader("Accept", "application/json");
             request.AddHeader("MerchantId", "10e651a8-2ce5-4f0a-897b-8e9f0580ed60");
             request.AddHeader("MerchantKey", "XFYELFRBDRZVVXTRWVNQMQDBJLARFDKWUDATNTQP");
-            request.AddHeader("RequestId", Guid.NewGuid().ToString());
 
             request.AddJsonBody(order);
 
